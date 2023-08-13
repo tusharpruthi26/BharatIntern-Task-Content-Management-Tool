@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding-left: 0px;
+    background-image: url("");
+  
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background-color:goldenrod;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 40px;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: black;
+  width:100%;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 28px;
+  width:100%;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .toolbar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 4px;
+  }
+  
+  .toolbar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .content {
+    min-height: 200px;
+    border: 3px solid #ccc;
+    background-color: #68284c;
+    padding: 20px;
+     border-radius: 10px;
+  }
+  
+  .content p {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 1.6;
+  }
+  
+  .content img,
+  .content video {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .new-blog {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(128, 128, 128);
+    border: 2px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .new-blog h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .new-blog .content {
+    min-height: 100px;
+    border: 1px dashed #b2d7e0;
+    background-color: #faf4f4;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .blog-title {
+      font-family: 'Arial', sans-serif;
+      font-size: 48px;
+      color: green;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      margin: 20px 0;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 95%;
+    }
+  }

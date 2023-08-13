@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="blog-title">Content Management Tool</h1>
+    </center>
+    <div class="container">
+        <div class="toolbar">
+            <button id="addText">Add Text</button>
+            <button id="addImage">Add Image</button>
+            <button id="addVideo">Add Video</button>
+        </div>
+        <div class="content" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <center>
+                <h2>Existing Blog</h2>
+            </center>
+            <div id="blogContent" class="content" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h4>Welcome to the Content Management Blog :)<br> Try your first blog by <br>-Writing a text <br>
+                    -Uploading an image <br> -Uploading a video </h4>
+            </div>
+        </div>
+        <div class="new-blog">
+            <h2>New Blog</h2>
+            <div id="newBlogContent" class="content" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
